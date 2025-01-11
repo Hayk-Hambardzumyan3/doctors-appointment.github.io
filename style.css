@@ -1,0 +1,32 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Button grid container */
+div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+/* Button styles */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1186e9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0043b3;
+    transform: scale(1.05);
+}

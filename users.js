@@ -1,6 +1,6 @@
 export const users = [
-    { username: 'reception', password: 'Dmc1234' },
-    { username: 'user1', password: 'pass1' },
-    { username: 'user2', password: 'pass2' }
+    { username: 'reception', password: 'receptiondmc1234' },
+    { username: 'admin', password: 'Chadmin!23' },
+    { username: 'call', password: 'Calldmc1234' }
     // Add more username-password pairs here
 ];

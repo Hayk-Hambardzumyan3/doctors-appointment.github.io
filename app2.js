@@ -46,7 +46,7 @@ function displayLoginForm() {
     loginContainer.style.fontFamily = 'Arial, sans-serif';
 
     const title = document.createElement('h1');
-    title.textContent = 'Welcome! Please Log In';
+    title.textContent = 'Մուտք գործեք համակարգ';
     title.style.color = '#333';
 
     const loginForm = document.createElement('form');
@@ -60,7 +60,7 @@ function displayLoginForm() {
 
     const usernameInput = document.createElement('input');
     usernameInput.type = 'text';
-    usernameInput.placeholder = 'Username';
+    usernameInput.placeholder = 'Մուտքանուն';
     usernameInput.style.margin = '10px 0';
     usernameInput.style.padding = '10px';
     usernameInput.style.width = '250px';
@@ -69,7 +69,7 @@ function displayLoginForm() {
 
     const passwordInput = document.createElement('input');
     passwordInput.type = 'password';
-    passwordInput.placeholder = 'Password';
+    passwordInput.placeholder = 'Գաղտնաբառ';
     passwordInput.style.margin = '10px 0';
     passwordInput.style.padding = '10px';
     passwordInput.style.width = '250px';
@@ -78,7 +78,7 @@ function displayLoginForm() {
 
     const loginButton = document.createElement('button');
     loginButton.type = 'submit';
-    loginButton.textContent = 'Login';
+    loginButton.textContent = 'Մուտք';
     loginButton.style.marginTop = '10px';
     loginButton.style.padding = '10px 20px';
     loginButton.style.backgroundColor = '#4CAF50';
@@ -131,12 +131,12 @@ function displayLoginForm() {
 function createButtonGrid(links) {
     const container = document.createElement('div');
     container.style.display = 'grid';
-    container.style.gridTemplateColumns = 'repeat(5, 1fr)';
+    container.style.gridTemplateColumns = 'repeat(3, 1fr)';
     container.style.gap = '10px';
     container.style.padding = '20px';
 
     const logoutButton = document.createElement('button');
-    logoutButton.textContent = 'Logout';
+    logoutButton.textContent = 'Դուրս գալ';
     logoutButton.style.position = 'absolute';
     logoutButton.style.bottom = '15px';
     logoutButton.style.right = '15px';

@@ -10,6 +10,17 @@ const buttonLinks = [
     { name: 'Պողոսյան Անահիտ Հրաչիկի', url: 'https://calendar.app.google/d5vfRrc38TrFfABj8' },
     { name: 'Միքայելյան Նաիրի Ռաֆայելի', url: 'https://calendar.app.google/WNinrzi8kAZ3RGcG6' },
     { name: 'Բադալյան Հասմիկ Ռոբերտի', url: 'https://calendar.app.google/4TyprM8Bw1d5Wbqq9'},
+    { name: 'Մխիթարյան Արևիկ Հրանտի', url: 'https://calendar.app.google/WVuK8QDryTngdP4V9'},
+    { name: 'Փարսադանյան Հայկուհի Միշայի', url: 'https://calendar.app.google/4S3x1f9ZR3Ru4yYFA'},
+    { name: 'Պողոսյան Նաիրա Մարտինի', url: 'https://calendar.app.google/CmvTgWcr97z5nTgDA'},
+    { name: 'Սողոմոնյան Վիգեն Կարենի / Հակոբյան Անի Վիտորի', url: 'https://calendar.app.google/Ybkp1kJZh51TCRHw8'},
+    { name: 'Էլոյան Սաթենիկ Հրաչիկի', url: 'https://calendar.app.google/SciRsbtwTopDZst9A'},
+    { name: 'Ավանեսյան Անժելիկա Վյաչեսլավի', url: 'https://calendar.app.google/JvaLpQrTa3ePFjGo6'},
+    { name: 'Հարությունյան Մարինե Ստալիկի',url: 'https://calendar.app.google/aQ4spZ69XZAW2ERE7'},
+    { name: 'Խոջայան Ռուզաննա Լևոնի', url: 'https://calendar.app.google/ir4i9vb6zfhxYfDp9'},
+    { name: 'Մակարյան Կարինե Սուրիկի', url: 'https://calendar.app.google/j7xBvWabRdnmLwwMA'},
+    { name: 'Մակարյան Նարինե Սուրիկի', url: 'https://calendar.app.google/2gWCsY51wPdiDszn7'},
+
     // Add more objects here (total 30, each with a unique name and URL)
 ];
 

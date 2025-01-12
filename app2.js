@@ -3,33 +3,33 @@ import { users } from './users.js';
 
 // Optimized Version: Modular and Scalable Approach (Using Event Listeners)
 const buttonLinks = [
-    { name: 'Մարգարյան Նորայր Աշոտի', url: 'https://calendar.app.google/Ham4M5iy6qRDVbDZ8' },
-    { name: 'Հակոբյան Ալեքսանդր Գուրգենի', url: 'https://calendar.app.google/T7cYu9u9QziZbWyN8' },
-    { name: 'Պողոսյան Ստեփան Գառնիկի', url: 'https://calendar.app.google/LniqkgkCNdk3h3Na7' },
-    { name: 'Հակոբյան Աշոտ Մարատի', url: 'https://calendar.app.google/hv3KbHREKa8DsfZx6' },
-    { name: 'Գրիգորյան Սոնյա Կառլենի', url: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3gLgTekt8kQe4mxDEhTxkTm9YH0aNLcmV9vUnaq1gRcjOBIIiN1VrZALEanII8ke5CGo_9qQky' },
-    { name: 'Եղյան Նեկտար Բագրատի', url: 'https://calendar.app.google/6tvevypbTzxPvBHJ8' },
-    { name: 'Խուրշուդյան Ալլա Դմիտրիի', url: 'https://calendar.app.google/GvLScEQyxMjYjgDRA' },
-    { name: 'Պողոսյան Անահիտ Հրաչիկի', url: 'https://calendar.app.google/d5vfRrc38TrFfABj8' },
-    { name: 'Միքայելյան Նաիրի Ռաֆայելի', url: 'https://calendar.app.google/WNinrzi8kAZ3RGcG6' },
-    { name: 'Բադալյան Հասմիկ Ռոբերտի', url: 'https://calendar.app.google/4TyprM8Bw1d5Wbqq9'},
-    { name: 'Մխիթարյան Արևիկ Հրանտի', url: 'https://calendar.app.google/WVuK8QDryTngdP4V9'},
-    { name: 'Փարսադանյան Հայկուհի Միշայի', url: 'https://calendar.app.google/4S3x1f9ZR3Ru4yYFA'},
-    { name: 'Պողոսյան Նաիրա Մարտինի', url: 'https://calendar.app.google/CmvTgWcr97z5nTgDA'},
-    { name: 'Սողոմոնյան Վիգեն Կարենի / Հակոբյան Անի Վիտորի', url: 'https://calendar.app.google/Ybkp1kJZh51TCRHw8'},
-    { name: 'Էլոյան Սաթենիկ Հրաչիկի', url: 'https://calendar.app.google/SciRsbtwTopDZst9A'},
-    { name: 'Ավանեսյան Անժելիկա Վյաչեսլավի', url: 'https://calendar.app.google/JvaLpQrTa3ePFjGo6'},
-    { name: 'Հարությունյան Մարինե Ստալիկի',url: 'https://calendar.app.google/aQ4spZ69XZAW2ERE7'},
-    { name: 'Խոջայան Ռուզաննա Լևոնի', url: 'https://calendar.app.google/ir4i9vb6zfhxYfDp9'},
-    { name: 'Մակարյան Կարինե Սուրիկի', url: 'https://calendar.app.google/j7xBvWabRdnmLwwMA'},
-    { name: 'Մակարյան Նարինե Սուրիկի', url: 'https://calendar.app.google/2gWCsY51wPdiDszn7'},
-    { name: 'Դարբինյան Գոհար Էդուարդի', url: 'https://calendar.app.google/EGizMvfU6QYSSCqp7'},
-    { name: 'Մարտիրոյան Հռիփսիմե Ալեքսանդրի', url: 'https://calendar.app.google/deN3pDHzZnFeLB41A'},
-    { name: 'Զոհրաբյան Կարմեն Արամի', url: 'https://calendar.app.google/tC5CBm5p3WUGzENb8'},
-    { name: 'Գևորգյան Լուսինե Ղուկասի', url: 'https://calendar.app.google/Ya3uHM9py2uiL21R6'},
-    { name: 'Մինասյան Արեգ Արթուրի', url: 'https://calendar.app.google/RfoMvJvJimf1sL2B8'},
-    { name: 'Չոփուրյան Նարեկ Վասիլի', url: 'https://calendar.app.google/oiBLdrtjmckEeRqu5'},
-    { name: 'Ավետիսյան Ավետիս Ենոքի', url: 'https://calendar.app.google/qmsKousqfNKCSCFz6'},
+    { name: 'Մարգարյան Նորայր Աշոտի (Գաստրոէնտերոլոգ)', url: 'https://calendar.app.google/Ham4M5iy6qRDVbDZ8' },
+    { name: 'Հակոբյան Ալեքսանդր Գուրգենի (Գաստրոսկոպիա, Կոլոնոսկոպիա)', url: 'https://calendar.app.google/T7cYu9u9QziZbWyN8' },
+    { name: 'Պողոսյան Ստեփան Գառնիկի (Գաստրոսկոպիա, Կոլոնոսկոպիա)', url: 'https://calendar.app.google/LniqkgkCNdk3h3Na7' },
+    { name: 'Հակոբյան Աշոտ Մարատի (Վիրաբույժ)', url: 'https://calendar.app.google/hv3KbHREKa8DsfZx6' },
+    { name: 'Գրիգորյան Սոնյա Կառլենի (Էլեկտրոնեյրոմիոգրաֆիա)', url: 'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3gLgTekt8kQe4mxDEhTxkTm9YH0aNLcmV9vUnaq1gRcjOBIIiN1VrZALEanII8ke5CGo_9qQky' },
+    { name: 'Եղյան Նեկտար Բագրատի (Նյարդաբան)', url: 'https://calendar.app.google/6tvevypbTzxPvBHJ8' },
+    { name: 'Խուրշուդյան Ալլա Դմիտրիի (Սրտաբան)', url: 'https://calendar.app.google/GvLScEQyxMjYjgDRA' },
+    { name: 'Պողոսյան Անահիտ Հրաչիկի (Սրտաբան)', url: 'https://calendar.app.google/d5vfRrc38TrFfABj8' },
+    { name: 'Միքայելյան Նաիրի Ռաֆայելի (Էխոկարդիոգրաֆիա)', url: 'https://calendar.app.google/WNinrzi8kAZ3RGcG6' },
+    { name: 'Բադալյան Հասմիկ Ռոբերտի (Էնդոկրինոլոգ)', url: 'https://calendar.app.google/4TyprM8Bw1d5Wbqq9'},
+    { name: 'Մխիթարյան Արևիկ Հրանտի (Ակնաբան)', url: 'https://calendar.app.google/WVuK8QDryTngdP4V9'},
+    { name: 'Փարսադանյան Հայկուհի Միշայի (Մաշկաբան)', url: 'https://calendar.app.google/4S3x1f9ZR3Ru4yYFA'},
+    { name: 'Պողոսյան Նաիրա Մարտինի (Սոնոգրաֆիա)', url: 'https://calendar.app.google/CmvTgWcr97z5nTgDA'},
+    { name: 'Սողոմոնյան Վիգեն Կարենի / Հակոբյան Անի Վիտորի (ԿՏ)', url: 'https://calendar.app.google/Ybkp1kJZh51TCRHw8'},
+    { name: 'Էլոյան Սաթենիկ Հրաչիկի (Ռենտգենոլոգ, Դենսիտոմետրիա)', url: 'https://calendar.app.google/SciRsbtwTopDZst9A'},
+    { name: 'Ավանեսյան Անժելիկա Վյաչեսլավի (Քիթ-Կոկոդր-Ականջաբան)', url: 'https://calendar.app.google/JvaLpQrTa3ePFjGo6'},
+    { name: 'Հարությունյան Մարինե Ստալիկի (Թոքաբան, Թերապևտ)',url: 'https://calendar.app.google/aQ4spZ69XZAW2ERE7'},
+    { name: 'Խոջայան Ռուզաննա Լևոնի (Սոնոգրաֆիա)', url: 'https://calendar.app.google/ir4i9vb6zfhxYfDp9'},
+    { name: 'Մակարյան Կարինե Սուրիկի (Հոդի սոնոգրաֆիա)', url: 'https://calendar.app.google/j7xBvWabRdnmLwwMA'},
+    { name: 'Մակարյան Նարինե Սուրիկի (Դուպլեքս)', url: 'https://calendar.app.google/2gWCsY51wPdiDszn7'},
+    { name: 'Դարբինյան Գոհար Էդուարդի (Դուպլեքս)', url: 'https://calendar.app.google/EGizMvfU6QYSSCqp7'},
+    { name: 'Մարտիրոյան Հռիփսիմե Ալեքսանդրի (ԷԷԳ)', url: 'https://calendar.app.google/deN3pDHzZnFeLB41A'},
+    { name: 'Զոհրաբյան Կարմեն Արամի (Գինեկոլոգ)', url: 'https://calendar.app.google/tC5CBm5p3WUGzENb8'},
+    { name: 'Գևորգյան Լուսինե Ղուկասի (Էնդոկրինոլոգ)', url: 'https://calendar.app.google/Ya3uHM9py2uiL21R6'},
+    { name: 'Մինասյան Արեգ Արթուրի (Ուրոլոգ)', url: 'https://calendar.app.google/RfoMvJvJimf1sL2B8'},
+    { name: 'Չոփուրյան Նարեկ Վասիլի (Հոդաբան)', url: 'https://calendar.app.google/oiBLdrtjmckEeRqu5'},
+    { name: 'Ավետիսյան Ավետիս Ենոքի (Նյարդաբան)', url: 'https://calendar.app.google/qmsKousqfNKCSCFz6'},
 
     // Add more objects here (total 30, each with a unique name and URL)
 ];
@@ -165,19 +165,19 @@ function createButtonGrid(links) {
     links.forEach(({ name, url }) => {
         const button = document.createElement('button');
         button.textContent = name;
-        button.style.padding = '10px';
+        button.style.padding = '13px';
         button.style.cursor = 'pointer';
-        button.style.backgroundColor = '#007BFF';
+        button.style.backgroundColor = '#0364b9';
         button.style.color = '#fff';
         button.style.border = 'none';
-        button.style.borderRadius = '4px';
+        button.style.borderRadius = '4px'; 
 
         button.addEventListener('mouseover', () => {
-            button.style.backgroundColor = '#0056b3';
+            button.style.backgroundColor = '#0046b3';
         });
         button.addEventListener('mouseout', () => {
-            button.style.backgroundColor = '#007BFF';
-        });
+            button.style.backgroundColor = '#0364b9';
+        }); 
 
         button.addEventListener('click', () => {
             window.open(url, '_blank');

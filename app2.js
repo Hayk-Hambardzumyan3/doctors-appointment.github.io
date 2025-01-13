@@ -168,7 +168,7 @@ function createButtonGrid(links) {
         button.style.backgroundColor = '#0364b9';
         button.style.color = '#fff';
         button.style.border = 'none';
-        button.style.borderRadius = '4px'; 
+        button.style.borderRadius = '10px'; 
 
         button.addEventListener('mouseover', () => {
             button.style.backgroundColor = '#0046b3';

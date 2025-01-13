@@ -26,10 +26,8 @@ const buttonLinks = [
     { name: 'Դարբինյան Գոհար Էդուարդի (Դուպլեքս)', url: 'https://calendar.app.google/EGizMvfU6QYSSCqp7'},
     { name: 'Մարտիրոյան Հռիփսիմե Ալեքսանդրի (ԷԷԳ)', url: 'https://calendar.app.google/deN3pDHzZnFeLB41A'},
     { name: 'Զոհրաբյան Կարմեն Արամի (Գինեկոլոգ)', url: 'https://calendar.app.google/tC5CBm5p3WUGzENb8'},
-    { name: 'Գևորգյան Լուսինե Ղուկասի (Էնդոկրինոլոգ)', url: 'https://calendar.app.google/Ya3uHM9py2uiL21R6'},
     { name: 'Մինասյան Արեգ Արթուրի (Ուրոլոգ)', url: 'https://calendar.app.google/RfoMvJvJimf1sL2B8'},
     { name: 'Չոփուրյան Նարեկ Վասիլի (Հոդաբան)', url: 'https://calendar.app.google/oiBLdrtjmckEeRqu5'},
-    { name: 'Ավետիսյան Ավետիս Ենոքի (Նյարդաբան)', url: 'https://calendar.app.google/qmsKousqfNKCSCFz6'},
 
     // Add more objects here (total 30, each with a unique name and URL)
 ];
